@@ -1,0 +1,27 @@
+{"organization_name":"Zapbytes",
+"footer_text":"CopyRights 2021 Zapbytes All rights Reserved",
+"accept_rejected_customers": 0,
+"blocked_new_customers_plan": 1,
+ "add_user_to_blocked_plan_after": 100,
+ "auto_daily_backup_time": "00:00",
+ "get_backup_frequency": "Daily",
+ "keep_daily_backups_for_days": 30,
+ "currency": "INR",
+ "tax_value": 0,
+ "grace_times_monthly": 10,
+ "grace_period": 10,
+ "revert_period": 10,
+ "invoice_should_paid_in": 10,
+ "disable_account_due_unpaid_invoice": 0,
+ "disable_account_due_exoired_contract": 0,
+ "generate_invoice_at": "00:00",
+ "add_revenue_balance": 0,
+ "send_release_request":1,
+ "min_revenue_release": 1000,
+ "revenue_share_type_reseller": "fixed"
+
+
+
+
+
+}

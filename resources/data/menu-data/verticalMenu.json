@@ -1,0 +1,381 @@
+{
+  "menu": [
+
+    {
+      "url": "/",
+      "permission": ["View Dashboard","View Resources"],
+      "name": "Dashboard",
+      "icon": "tachometer-alt",
+      "lib": "font",
+      "slug": "dashboard-analytics"
+
+    },
+
+    {  "name": "Users",
+      "permission": ["list Customers","list Online Customers","add Customers","view Groups"],
+      "icon": "users",
+      "lib": "font",
+      "slug": "list_viewusers_lists",
+      "submenu": [
+        {
+          "url": "/ISPUsers/list/all",
+          "permission": ["list Customers"],
+          "name": "List Users",
+          "icon": "circle",
+          "slug": "list_viewusers_list"
+        },
+        {
+          "url": "/ISP/users/online",
+          "permission": "list Online Customers",
+          "name": "List Online Users",
+          "icon": "circle",
+          "slug": "isp-online-users-list"
+        },
+        {
+          "url": "/ISP/users/adduser",
+          "permission": ["add Customers"],
+          "name": "Add New User",
+          "icon": "circle",
+          "slug": "isp-users-add-view"
+        },
+        {
+          "url": "/ISPUsers/deleted",
+          "permission": ["View Deleted Customers"],
+          "name": "Deleted Users",
+          "icon": "circle",
+          "slug": "isp-deleted-users-list"
+        },
+
+        {
+          "url": "/ISPUsers/settings",
+          "permission": ["Change users Required Fields"],
+          "name": "Required Fields",
+          "icon": "circle",
+          "new": 1,
+          "slug": "isp-save_settings"
+        },
+        {
+          "url": "/Groups/index",
+          "permission": ["view Groups"],
+          "name": "Users Group",
+          "icon": "circle",
+          "slug": "groups_index"
+        }
+      ]
+    },
+    {
+      "url": "/tickets",
+      "permission": ["show Ticket","show Config Ticket"],
+      "name": "Tickets",
+      "icon": "ticket-alt",
+      "lib": "font",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "/tickets",
+          "permission": "show Ticket",
+          "name": "List Tickets",
+          "icon": "circle",
+          "slug": "tickets.index"
+        },
+        {
+          "url": "/tickets/config",
+          "permission": "show Config Ticket",
+          "name": "Ticket Config",
+          "icon": "circle",
+          "slug": "ticket_config"
+        }
+      ]
+    },
+    {
+      "url": "/agents",
+      "permission": "",
+      "name": "Tasks",
+      "icon": "tasks",
+      "lib": "font",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "/tasks",
+          "permission": "Show Tasks",
+          "name": "Tasks",
+          "icon": "circle",
+          "slug": "tasks.index"
+        },
+        {
+          "url": "/tasks/config",
+          "permission": "Show Task Config",
+          "name": "Task Config",
+          "icon": "circle",
+          "slug": "task_config"
+        },
+        {
+          "url": "/agents",
+          "permission": "Show Agents",
+          "name": "List Agents",
+          "icon": "circle",
+          "slug": "agents.index"
+        },
+        {
+          "url": "/agent_classification",
+          "permission": "Show Agent Classification",
+          "name": "Agent Classification",
+          "icon": "circle",
+          "slug": "agent-classification"
+        }
+      ]
+    },
+    {
+      "url": "/Plans/list",
+      "permission": ["view plans","view Bandwidth","View Quota"],
+      "name": "Tariff",
+      "icon": "donate",
+      "lib": "font",
+      "slug": "app-kanban",
+      "submenu": [
+        {
+          "url": "/Plans/list",
+          "permission": ["view plans"],
+          "name": "List/Add Tariff",
+          "icon": "circle",
+          "slug": "plans-list"
+        },
+        {
+          "url": "/Plans/bandwidth",
+          "permission": ["view Bandwidth"],
+          "name": "Bandwidth",
+          "icon": "circle",
+          "slug": "plans-bandwidth"
+        },
+        {
+          "url": "/Plans/quota",
+          "permission": ["View Quota"],
+          "name": "Quota ",
+          "icon": "circle",
+          "slug": "plans-quota"
+        }
+
+      ]
+    },
+    {
+      "url": "/Networks/index",
+      "permission": ["view devices","View IP","view vlan"],
+      "name": "Network",
+      "icon": "network-wired",
+      "lib": "font",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "/Routers/list",
+          "permission": ["view devices"],
+          "name": "NAS Management",
+          "icon": "circle",
+          "slug": "Routers-list"
+        },
+        {
+          "url": "/Networks/index",
+          "permission": ["View IP"],
+          "name": "IP Management",
+          "icon": "circle",
+          "slug": "networks-index"
+        },
+        {
+          "url": "/VLAN/index",
+          "permission": ["view vlan"],
+          "name": "VLAN Management",
+          "icon": "circle",
+          "slug": "vlan_index"
+        }
+
+      ]
+    },
+
+    {
+      "url": "/CRM/leads",
+      "permission": ["list leads"],
+      "name": "CRM",
+      "icon": "poll",
+      "lib": "font",
+      "slug": "leads_page"
+    }
+
+
+  ,
+    {
+      "url": "/Finance/Invoice/list",
+      "permission": ["View Invoice","view payment","view transaction","View Reseller","Add Invoice Template"],
+      "name": "Finance",
+      "icon": "hand-holding-usd",
+      "lib": "font",
+      "slug": "app-kanban",
+      "submenu": [
+        {
+          "url": "/Finance/Invoice/list",
+          "permission": ["View Invoice"],
+          "name": "Invoices",
+          "icon": "circle",
+          "slug": "invoice_list"
+        },
+        {
+          "url": "/Finance/Payment/list",
+          "permission": ["view payment"],
+          "name": "Payments",
+          "icon": "circle",
+          "slug": "Payment_list"
+        },
+        {
+          "url": "/Finance/Transaction/list",
+          "permission": ["view transaction"],
+          "name": "Transactions",
+          "icon": "circle",
+          "slug": "Transaction_list"
+        },
+        {
+          "url": "/Reseller/index",
+          "permission": ["View Reseller"],
+          "name": "Reseller Management",
+          "icon": "circle",
+          "slug": "Reseller_index"
+        },
+        {
+          "url": "/Finance/Invoice/add_Invoice_template",
+          "permission": ["Add Invoice Template"],
+          "name": "Invoice Template",
+          "icon": "circle",
+          "slug": "Finance_add_Invoice_template"
+        }
+
+
+      ]
+    },
+
+
+    {
+      "url": "/Logs/list",
+      "permission": ["View Completed Sessions","View Login Logs"],
+      "name": "Logs",
+      "icon": "info-circle",
+      "lib": "font",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "/Logs/list",
+          "permission": ["View Completed Sessions"],
+          "name": "User's Logs",
+          "icon": "circle",
+
+          "slug": "logs_list"
+        },
+        {
+          "url": "/Logs/login",
+          "permission": ["View Login Logs"],
+          "name": "Login Logs",
+          "icon": "circle",
+
+          "slug": "loginlogs_index"
+        },
+        {
+          "url": "/Activity/admin",
+          "permission": ["view Activity logs"],
+          "name": "Activity Logs",
+          "icon": "circle",
+
+          "slug": "activity_admin"
+        }
+      ]
+    },
+    {
+      "url": "/Admin/list",
+      "permission": ["view admins","View Roles"],
+      "name": "Admins Management",
+      "icon": "user-tie",
+      "lib": "font",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "/Admin/list",
+          "permission": ["view admins"],
+          "name": "Admins Management",
+          "icon": "circle",
+          "slug": "Admin-list"
+        },
+        {
+          "url": "/Admin/admin_classification",
+          "permission": ["Admin Classification"],
+          "name": "Admin-classification",
+          "icon": "circle",
+          "slug": "Admin-classification"
+        }
+      ,
+        {
+          "url": "/Roles/list",
+          "permission": ["View Roles"],
+          "name": "Roles Management",
+          "icon": "circle",
+          "slug": "role-list"
+        }
+      ]
+    }
+
+
+
+  ,
+    {
+      "url": "/Settings/index",
+      "permission": ["settings","View Message Template","View Config","General Settings","Notification Settings","Reseller Settings","Billing Settings","Authentication Settings","Backup Settings"],
+      "name": "Settings",
+      "icon": "cogs",
+      "lib": "font",
+      "slug": "Settings_index",
+      "submenu": [
+        { "url": "/Settings/index",
+          "permission": ["General Settings","Notification Settings","Reseller Settings","Billing Settings","Authentication Settings","Backup Settings"],
+          "name": "System Settings",
+          "icon": "circle",
+
+          "slug": "Settings_index"
+        },
+        {
+          "url": "/Config/SMS",
+          "permission": ["View Config"],
+          "name": "External Integration",
+          "icon": "circle",
+          "slug": "config-sms"
+        },
+        {
+          "url": "/Templates/list",
+          "permission": ["View Message Template"],
+          "name": "Templates Management",
+          "icon": "circle",
+          "slug": "Templates_list"
+        }
+      ]
+    }
+  ,
+    {
+      "url": "/Backup/index",
+      "permission": ["View Backup"],
+      "name": "Backup",
+      "icon": "database",
+      "lib": "font",
+      "slug": "backup_index"
+    },
+    {
+      "url": "/Tools/index",
+      "permission": ["Send Bulk SMS","Send Bulk Email"],
+      "name": "Tools",
+      "icon": "tools",
+      "lib": "font",
+      "slug": "tool_index"
+    }
+  ,
+    {
+      "url": "/Company/index",
+      "permission": ["View Zones"],
+      "name": "Zones",
+      "icon": "building",
+      "lib": "font",
+      "slug": "company-index"
+    }
+  ]
+}

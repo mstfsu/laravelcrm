@@ -1,0 +1,352 @@
+﻿@media (min-width: 768px) {
+
+    /* 768px */
+    /* Page Container */
+    .sub-container {
+        margin-left: 180px;
+        padding: 1px 0 0 25px;
+        overflow: hidden;
+    }
+}
+
+
+.ui-state-highlight {
+    height: 2.5em;
+    line-height: 2.2em;
+    background-color: #E1E5EC;
+}
+
+
+@media (max-width: 1012px) {
+    .page-bar {
+        display: none;
+    }
+}
+
+
+.page-bar {
+    margin-bottom: 5px;
+}
+
+    .page-bar .tabletools-dropdown-on-portlet {
+        margin-top: 0px;
+        margin-right: 5px;
+        float: right;
+    }
+
+    .page-bar .form-group {
+        margin-bottom: 0px;
+    }
+
+.sub-container .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    padding: 4px;
+    line-height: 1;
+    vertical-align: middle;
+    border-top: 1px solid #ddd;
+}
+
+    .sub-container .table > tbody > tr > td:not(:first-child) {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+.sub-container .table thead tr th {
+    line-height: 1.6;
+    font-size: inherit;
+}
+
+
+.button-wrapper {
+    margin-top: -20px;
+    position: fixed;
+    top: auto;
+    bottom: 0px;
+    margin-left: -8px;
+    bottom: 20px;
+}
+
+    .button-wrapper .btn {
+        margin-top: 14px;
+        margin-left: 10px;
+    }
+
+        .button-wrapper .btn + .btn {
+            margin-right: 10px;
+        }
+
+.pagination {
+    margin: 12px 0;
+}
+
+#search {
+
+}
+
+.paging-wrapper {
+    z-index: 10001;
+    position: absolute;
+    top: auto;
+    bottom: 20px;
+    left: auto;
+    right: 45px;
+}
+
+.dataTables_empty {
+    text-align: center;
+    height: 450px;
+    font-size: 18px;
+}
+
+
+
+.details {
+}
+
+    .details > table {
+        line-height: initial;
+    }
+
+.deviceContainer {
+}
+
+.loglenghtselect {
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.loglenghtlabel {
+    margin-top: 3px;
+    margin-right: -5px;
+    height: 30px;
+    padding: 6px 10px 5px 10px;
+    padding-left: 0px;
+}
+
+.page-bar .page-toolbar.lenght {
+    float: left;
+    margin-left: 110px;
+}
+
+
+.page-bar .page-toolbar.clock {
+    float: left;
+}
+
+    .page-bar .page-toolbar.clock .clockdiv {
+        margin-top: 4px;
+    }
+
+
+    .page-bar .page-toolbar.clock .clocktext {
+        float: right;
+        padding-left: 8px;
+        padding-top: 5px;
+    }
+
+.page-bar .page-toolbar.tool {
+    margin-top: 4px;
+    margin-right: 4px;
+}
+
+
+.sidebartype {
+    width: 145px !important;
+}
+
+
+#sidebarDate {
+    width: 145px !important;
+}
+
+.page-snowmenu .nav-collapse .navbar-nav > li[data-checked="true"] > a > i {
+    color: #555555;
+}
+
+.table-scrollable.details {
+    overflow-x: auto;
+    overflow-y: hidden;
+    border: 0px solid #dddddd;
+    margin: 0px !important;
+}
+
+
+.drwrapper {
+    display: none;
+    margin-top: 30px;
+    position: absolute;
+    width: inherit;
+}
+
+
+    .drwrapper .dropdown-menu {
+        display: block !important;
+        /*position: absolute !important;*/
+        min-width: 215px !important;
+        width: 100% !important;
+        margin-left: 0px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 3px;
+    }
+
+        .drwrapper .dropdown-menu span {
+            word-wrap: break-word;
+            white-space: normal;
+        }
+
+.dractive {
+    background-color: rgba(229, 229, 229, 0.45);
+}
+
+
+
+.dropdown > .dropdown-menu.rightmenu:before, .dropdown-toggle > .dropdown-menu:before, .btn-group > .dropdown-menu.rightmenu:before {
+    position: absolute;
+    top: -8px;
+    left: 175px;
+    right: auto;
+    display: inline-block !important;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #e0e0e0;
+    border-left: 8px solid transparent;
+    content: '';
+}
+
+.dropdown > .dropdown-menu.rightmenu:after, .dropdown-toggle > .dropdown-menu:before, .btn-group > .dropdown-menu.rightmenu:after {
+    position: absolute;
+    top: -7px;
+    left: 175px;
+    right: auto;
+    display: inline-block !important;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #fff;
+    border-left: 7px solid transparent;
+    content: '';
+}
+
+
+.dropdown > .dropdown-menu:before, .dropdown-toggle > .dropdown-menu:before, .btn-group > .dropdown-menu:before {
+    position: absolute;
+    top: -8px;
+    left: 9px;
+    right: auto;
+    display: inline-block !important;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #e0e0e0;
+    border-left: 8px solid transparent;
+    content: '';
+}
+
+.dropdown > .dropdown-menu:after, .dropdown-toggle > .dropdown-menu:after, .btn-group > .dropdown-menu:after {
+    position: absolute;
+    top: -7px;
+    left: 9px;
+    right: auto;
+    display: inline-block !important;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #fff;
+    border-left: 7px solid transparent;
+    content: '';
+}
+
+.scroll-to-top {
+    margin-bottom: 75px;
+}
+
+.dropdown-menu li > a {
+    padding: 5.5px 12px;
+}
+
+
+#context-menu .dropdown-menu {
+    min-width: 130px !important;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.open{
+    display: block;
+}
+
+    #context-menu .dropdown-menu span {
+        margin-left: 3px;
+    }
+
+#context-menu-light .dropdown-menu {
+    min-width: 161px !important;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+    #context-menu-light .dropdown-menu span {
+        margin-left: 3px;
+    }
+
+
+.select2-results .fa {
+    float: right;
+    position: relative;
+    line-height: 20px;
+    margin-right: 1px;
+}
+
+.daterangepicker .ranges .btn {
+    margin-top: 0px;
+}
+
+.daterangepicker .range_inputs {
+    padding-left: 5px;
+}
+
+.modal-open .datepicker {
+    z-index: 10048 !important;
+}
+
+.minispinner {
+    margin-right: 0px;
+}
+
+    .minispinner > div {
+        width: 5px;
+        margin-left: 1px;
+    }
+
+.page-footer-inner {
+    display: none !important;
+}
+
+.timer {
+    font-style: italic;
+}
+
+.page-breadcrumb {
+    min-width: 95px;
+}
+
+.snow-wrapper {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.auto-active {
+    opacity: 1 !important;
+}
+
+
+.globalInterval {
+    margin-right: 10px;
+    margin-top: 0px;
+    width: 90px;
+}
+
+.intervalgloballabel {
+    margin-top: 0px;
+    margin-right: -5px;
+    height: 30px;
+    padding: 6px 10px 5px 10px;
+}
+
+
+#logTable_wrapper table .table-scrollable.details td.dt-subcntxtmenu {
+    cursor: pointer;
+}

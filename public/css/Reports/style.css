@@ -1,0 +1,164 @@
+﻿@media (min-width: 768px) {
+
+    /* 768px */
+    /* Page Container */
+    .sub-container {
+        margin-left: 210px;
+        padding: 1px 0 0 30px;
+        overflow: hidden;
+    }
+}
+
+.page-snowmenu .nav-collapse .navbar-nav > li > a {
+    text-transform: none;
+}
+
+#reporttable {
+    margin-top: 20px;
+}
+
+.range_inputs {
+    display: none;
+}
+
+
+.selectdevice {
+    margin-top: 5px;
+}
+
+
+#chartbardiv {
+    width: 100%;
+    height: 380px;
+}
+
+#chartpiediv {
+    width: 100%;
+    height: 450px;
+}
+
+.amcharts-export-menu-top-right {
+    top: 10px;
+    right: 0;
+}
+
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    background-color: inherit;
+}
+
+.tabbable-line > .tab-content {
+    background-color: inherit;
+}
+
+
+td.details-control {
+    background: url('../../../../Assets/global/plugins/datatables/media/images/details_open.png') no-repeat center center;
+    cursor: pointer;
+}
+
+tr.shown td.details-control {
+    background: url('../../../../Assets/global/plugins/datatables/media/images/details_close.png') no-repeat center center;
+}
+
+
+.select2-drop {
+    z-index: 9999999;
+}
+
+
+.daterangepicker.dropdown-menu {
+    z-index: 9999999;
+}
+
+.jstree {
+    margin-left: -4px;
+}
+
+    .jstree .jstree-anchor {
+        margin-left: -4px;
+    }
+
+.jstree-icon.icon-lg {
+    margin-top: 1px;
+    margin-right: -2px;
+}
+
+.page-snowmenu #sidebarColSearch {
+    width: 180px;
+    height: 30px;
+    font-size: 12px;
+}
+
+/*.jstree-node.jstree-leaf {
+    margin-left: 13px !important;
+}*/
+.jstree .jstree-open > .jstree-children {
+    margin-left: -6px;
+}
+
+
+.jstree-node a {
+    display: inline-block;
+    width: 180px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+}
+
+/*.jstree-default a { 
+    white-space:normal !important; height: auto; 
+}
+.jstree-anchor {
+    height: auto !important;
+}
+.jstree-default li > ins { 
+    vertical-align:top; 
+}
+.jstree-leaf {
+    height: auto;
+}
+.jstree-leaf a{
+    height: auto !important;
+}*/
+
+.select2-results .fa {
+    float: right;
+    position: relative;
+    line-height: 20px;
+    margin-right: 1px;
+}
+
+#chartdiv {
+    width: 150px;
+    height: 50px;
+    font-size: 11px;
+    margin: 100px;
+    border: 1px dotted #c55;
+}
+
+#balloon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #ccc;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 6px;
+    font-size: 14px;
+    color: #000;
+    margin: 20px 0 0 20px;
+}
+
+.ranges li:last-child {
+    display: none;
+}
+
+.fullscreen
+{
+    display:none;
+}
+
+.snow-wrapper {
+    margin-left: 0px;
+    margin-right: 0px;
+}

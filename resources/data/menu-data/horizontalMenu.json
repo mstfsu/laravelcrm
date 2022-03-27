@@ -1,0 +1,95 @@
+{
+  "menu": [
+
+    {
+      "url": "/Customer/index",
+      "permission": "dashboard",
+      "name": "Dashboard",
+      "icon": "tachometer-alt",
+      "lib": "font",
+      "slug": "customers-dashboard"
+
+    },
+
+    {
+      "url": "/Customer/tickets",
+      "permission": "",
+      "name": "Tickets",
+      "icon": "ticket-alt",
+      "lib": "font",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "/Customer/tickets",
+          "permission": "",
+          "name": "List Tickets",
+          "icon": "circle",
+          "slug": "customer_tickets"
+        }
+      ]
+    },
+
+    {
+      "url": "/Customer/Finance/Invoices",
+      "permission": "view Invoices",
+      "name": "Finance",
+      "icon": "hand-holding-usd",
+      "lib": "font",
+      "slug": "app-kanban",
+      "submenu": [
+        {
+          "url": "/Customer/Finance/Invoices",
+          "permission": "view invoices",
+          "name": "Invoices",
+          "icon": "circle",
+          "slug": "customers_invoices"
+        },
+        {
+          "url": "/Customer/Finance/Payments",
+          "permission": "view payments",
+          "name": "Payments",
+          "icon": "circle",
+          "slug": "customers_payments"
+        },
+        {
+          "url": "/Customer/Finance/Transaction",
+          "permission": "view transactions",
+          "name": "Transactions",
+          "icon": "circle",
+          "slug": "customers_transactions"
+        }
+
+
+      ]
+    },
+
+
+    {
+      "url": "/Customer/Logs/list",
+      "permission": "View Logs",
+      "name": "Logs",
+      "icon": "info-circle",
+      "lib": "font",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "/Customer/Logs/list",
+          "permission": "View Logs",
+          "name": "Sessions Logs",
+          "icon": "circle",
+
+          "slug": "customer_logs_list"
+        },
+        {
+          "url": "/Customer/Logs/userview",
+          "permission": "Usage Statistics",
+          "name": "Usage Statistics",
+          "icon": "circle",
+
+          "slug": "customer-isp-users-view"
+        }
+      ]
+    }
+
+  ]
+}
